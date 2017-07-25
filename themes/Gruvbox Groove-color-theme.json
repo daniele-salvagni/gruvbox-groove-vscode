@@ -1,0 +1,267 @@
+{
+	"tokenColors": [
+		{
+			"settings": {
+				"background": "#282828",
+				"foreground": "#EBDBB2",
+				"selectionHighlight": "#504945",
+				"activeLinkForeground": "",
+				"gotoDefinitionLinkForeground": ""
+			}
+		},
+		{
+			"name": "Comment",
+			"scope": "comment",
+			"settings": {
+				"foreground": "#928374"
+			}
+		},
+		{
+			"name": "String",
+			"scope": "string",
+			"settings": {
+				"foreground": "#B8BB26"
+			}
+		},
+		{
+			"name": "Number",
+			"scope": "constant.numeric",
+			"settings": {
+				"foreground": "#D3869B"
+			}
+		},
+		{
+			"name": "Built-in constant",
+			"scope": "constant.language",
+			"settings": {
+				"foreground": "#D3869B"
+			}
+		},
+		{
+			"name": "User-defined constant",
+			"scope": [
+				"constant.character",
+				"constant.other"
+			],
+			"settings": {
+				"foreground": "#D3869B"
+			}
+		},
+		{
+			"name": "Variable",
+			"scope": "variable",
+			"settings": {
+				"foreground": "#EBDBB2"
+			}
+		},
+		{
+			"name": "Variable Property",
+			"scope": [
+				"variable.property",
+				"variable.language"
+			],
+			"settings": {
+				"foreground": "#83A598"
+			}
+		},
+		{
+			"name": "Keyword",
+			"scope": "keyword",
+			"settings": {
+				"foreground": "#FB4934"
+			}
+		},
+		{
+			"name": "Storage",
+			"scope": "storage",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#FB4934"
+			}
+		},
+		{
+			"name": "Storage type",
+			"scope": "storage.type",
+			"settings": {
+				"foreground": "#FB4934"
+			}
+		},
+		{
+			"name": "Class name",
+			"scope": "entity.name.class",
+			"settings": {
+				"foreground": "#FABD2F"
+			}
+		},
+		{
+			"name": "Inherited class",
+			"scope": "entity.other.inherited-class",
+			"settings": {
+				"foreground": "#FABD2F"
+			}
+		},
+		{
+			"name": "Function name",
+			"scope": "entity.name.function",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#B8BB26"
+			}
+		},
+		{
+			"name": "Function argument",
+			"scope": "variable.parameter",
+			"settings": {
+				"foreground": "#EBDBB2"
+			}
+		},
+		{
+			"name": "Tag name",
+			"scope": "entity.name.tag",
+			"settings": {
+				"foreground": "#83A598"
+			}
+		},
+		{
+			"name": "Tag attribute",
+			"scope": "entity.other.attribute-name",
+			"settings": {
+				"foreground": "#D3869B"
+			}
+		},
+		{
+			"name": "Library function",
+			"scope": "support.function",
+			"settings": {
+				"foreground": "#FE8019"
+			}
+		},
+		{
+			"name": "Library constant",
+			"scope": "support.constant",
+			"settings": {
+				"foreground": "#FABD2F"
+			}
+		},
+		{
+			"name": "Library class/type",
+			"scope": [
+				"support.type",
+				"support.class"
+			],
+			"settings": {
+				"foreground": "#FABD2F"
+			}
+		},
+		{
+			"name": "Library variable",
+			"scope": "support.other.variable",
+			"settings": {
+				"foreground": "#EBDBB2"
+			}
+		},
+		{
+			"name": "Invalid",
+			"scope": "invalid",
+			"settings": {
+				"background": "#B16286",
+				"foreground": "#FBF1C7"
+			}
+		},
+		{
+			"name": "Invalid deprecated",
+			"scope": "invalid.deprecated",
+			"settings": {
+				"background": "#458588",
+				"foreground": "#FBF1C7"
+			}
+		},
+		{
+			"name": "Markup Quote",
+			"scope": "markup.quote",
+			"settings": {
+				"foreground": "#689D6A"
+			}
+		},
+		{
+			"name": "Markup Styling",
+			"scope": [
+				"markup.bold",
+				"markup.italic"
+			],
+			"settings": {
+				"foreground": "#689D6A"
+			}
+		},
+		{
+			"name": "Markup Inline",
+			"scope": "markup.inline.raw",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#B16286"
+			}
+		},
+		{
+			"name": "Markup Setext Header",
+			"scope": "markup.heading.setext",
+			"settings": {
+				"foreground": "#D5C4A1"
+			}
+		},
+		{
+			"name": "Punctuation",
+			"scope": "keyword.operator",
+			"settings": {
+				"foreground": "#EBDBB2"
+			}
+		},
+		{
+			"name": "Punctuation Tag",
+			"scope": "punctuation.definition.tag",
+			"settings": {
+				"foreground": "#83A598"
+			}
+		},
+		{
+			"name": "Library Constant",
+			"scope": "constant.property",
+			"settings": {
+				"foreground": "#D3869B"
+			}
+		},
+		{
+			"name": "Type name",
+			"scope": "entity.name.type",
+			"settings": {
+				"foreground": "#FABD2F"
+			}
+		},
+		{
+			"name": "Operator Expression",
+			"scope": "operator.expression",
+			"settings": {
+				"foreground": "#FB4934"
+			}
+		}
+	],
+	"colors": {
+		"editor.background": "#282828",
+		"editor.foreground": "#EBDBB2",
+		"editorCursor.foreground": "#D5C4A1",
+		"editorWhitespace.foreground": "#3C3836",
+		"editorIndentGuide.background": "#3C3836",
+		"editor.lineHighlightBackground": "#32302F",
+		"editor.inactiveSelectionBackground": "#3C3836",
+		"editor.selectionBackground": "#504945",
+		"editor.wordHighlightBackground": "",
+		"editor.wordHighlightStrongBackground": "",
+		"editor.hoverHighlightBackground": "#1D2021",
+		"peekViewEditor.matchHighlightBackground": "",
+		"editor.rangeHighlightBackground": "#3C3836",
+		"editor.findRangeHighlightBackground": "#3A3D41",
+		"editor.findMatchHighlightBackground": "#665C54",
+		"peekViewResult.matchHighlightBackground": "#665C54",
+		"editor.findMatchBackground": "#504945"
+	},
+	"name": "Gruvbox Groove"
+}
